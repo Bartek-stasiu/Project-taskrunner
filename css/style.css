@@ -156,18 +156,24 @@ body {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
 }
 
 .portfolio-text {
   background: white;
   padding: 10px 0;
-  line-height: 0.2;
 }
 
 .portfolio-text p {
+  margin: 10px;
+  padding: 5px 0 20px;
   font-family: "Barlow", serif;
   color: grey;
   font-size: 20px;
+}
+
+.portfolio-text h4 {
+  padding: 5px 0 20px;
 }
 
 /* footer */
@@ -184,14 +190,16 @@ body {
   background: white;
   color: black;
   text-align: right;
-  margin-top: auto;
+  display: inline-block;
+  margin: 5px 0;
+  line-height: 1.5;
 }
 
 .page-footer .copyrights p {
   text-align: left;
   padding-left: 0;
   font-size: 15px;
-  margin-bottom: auto;
+  margin: 5px 0;
 }
 
 .page-footer .fonts {
@@ -213,10 +221,23 @@ body {
   line-height: 50px;
   color: white;
   border-radius: 50%;
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .page-footer .fonts i:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .splash-inner .page-subtitle h1 {
+    font-size: 15px;
+  }
+  .splash-inner .page-title h2 {
+    font-size: 20px;
+  }
+  .btn {
+    padding: 20px 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

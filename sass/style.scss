@@ -188,19 +188,19 @@ margin-top: 20px;
 
 .page-footer .copyrights i {
 font-size: 15px;
-background:white;
+background: white;
 color: black;
 text-align: right;
 display: inline-block;
 margin: 5px 0;
-vertical-align: top;
+line-height: 1.5;
 }
 
 .page-footer .copyrights p {
 text-align: left;
 padding-left: 0;
 font-size: 15px;
-margin: 10px 0;
+margin: 5px 0;
 }
 
 .page-footer .fonts {
@@ -233,11 +233,11 @@ transform: scale(1.1);
 
 @media (max-width: 767px) {
     .splash-inner .page-subtitle h1{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .splash-inner .page-title h2{
-      font-size: 25px;
+      font-size: 20px;
       }
 
     .btn {
