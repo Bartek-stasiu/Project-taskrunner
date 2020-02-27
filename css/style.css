@@ -232,6 +232,9 @@ body {
 @media (max-width: 767px) {
   .splash-inner {
     position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
   }
   .splash-inner .page-title {
     font-size: 20px;
